@@ -89,7 +89,7 @@ def Show(query):
     return c.fetchall()
     for i in Authors:
         print(c)
-    return query.filter_by(name='Hank Green')
+    return query.filter_by(name)
 #
 # wendy = my_filter(session.query(Authors)).one()
 # print(wendy)
